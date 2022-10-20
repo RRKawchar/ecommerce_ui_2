@@ -6,8 +6,8 @@ import 'package:ecommerce_practice_ui/screens/complete_profile/components/comple
 import 'package:ecommerce_practice_ui/size_config.dart';
 import 'package:flutter/material.dart';
 
-class ProfileBody extends StatelessWidget {
-  const ProfileBody({Key? key}) : super(key: key);
+class FormBody extends StatelessWidget {
+  const FormBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

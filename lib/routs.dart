@@ -1,10 +1,13 @@
 
 
+import 'package:ecommerce_practice_ui/screens/cart/cart_screen.dart';
 import 'package:ecommerce_practice_ui/screens/complete_profile/complete_profile_screen.dart';
+import 'package:ecommerce_practice_ui/screens/details/details_screen.dart';
 import 'package:ecommerce_practice_ui/screens/forget_pass/forget_password.dart';
 import 'package:ecommerce_practice_ui/screens/home/home_screen.dart';
 import 'package:ecommerce_practice_ui/screens/login_success/login_success_screen.dart';
 import 'package:ecommerce_practice_ui/screens/otp/otp_screen.dart';
+import 'package:ecommerce_practice_ui/screens/profile/profile_screen.dart';
 import 'package:ecommerce_practice_ui/screens/sign_in/sign_in_screen.dart';
 import 'package:ecommerce_practice_ui/screens/sign_up/sign_up_screen.dart';
 import 'package:ecommerce_practice_ui/screens/splash/splahs_screen.dart';
@@ -20,5 +23,8 @@ final Map<String,WidgetBuilder> routes={
   CompleteProfileScreen.routeName:(context)=>CompleteProfileScreen(),
   OtpScreen.routeName:(context)=>OtpScreen(),
   HomeScreen.routeName:(context)=>HomeScreen(),
+  DetailsScreen.routeName:(context)=>DetailsScreen(),
+  CartScreen.routeName:(context)=>CartScreen(),
+  ProfileScreen.routeName:(context)=>ProfileScreen(),
 
 };

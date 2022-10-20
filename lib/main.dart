@@ -2,6 +2,7 @@ import 'package:ecommerce_practice_ui/constants.dart';
 import 'package:ecommerce_practice_ui/routs.dart';
 import 'package:ecommerce_practice_ui/screens/home/home_screen.dart';
 import 'package:ecommerce_practice_ui/screens/otp/otp_screen.dart';
+import 'package:ecommerce_practice_ui/screens/profile/profile_screen.dart';
 import 'package:ecommerce_practice_ui/screens/splash/splahs_screen.dart';
 import 'package:ecommerce_practice_ui/theme.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       title: 'Ecommerce Practice ui',
       theme: theme(),
       // home: SplashScreen(),
-      initialRoute: HomeScreen.routeName,
+      initialRoute: SplashScreen.routeName,
       routes: routes,
     );
   }

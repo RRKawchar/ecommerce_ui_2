@@ -1,4 +1,4 @@
-import 'package:ecommerce_practice_ui/screens/complete_profile/components/profile_body.dart';
+import 'package:ecommerce_practice_ui/screens/complete_profile/components/form_body.dart';
 import 'package:flutter/material.dart';
 
 class CompleteProfileScreen extends StatelessWidget {
@@ -12,7 +12,7 @@ class CompleteProfileScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Sign Up"),
       ),
-      body: ProfileBody(),
+      body: FormBody(),
     );
   }
 }
